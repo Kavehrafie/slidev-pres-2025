@@ -1,0 +1,6 @@
+config:
+  MD012: false # Allow multiple blank lines
+  MD047: false # Allow any file ending (not just single newline)
+  MD025: false
+  MD022: false
+  MD035: false

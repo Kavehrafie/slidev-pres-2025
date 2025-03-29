@@ -1,7 +1,5 @@
 ---
 title: Cubist Influences in Post-War Iranian Art
-defaults:
-  layout: CenteredImageLayout
 theme: academic
 layout: intro
 data: data.yaml
@@ -9,17 +7,15 @@ data: data.yaml
 
 # Cubism in Iran, 1940s--1950s
 
-## A Horizon of a Socialism Modenity
+## A Horizon of a Socialism Modernity
 
 ---
-
 layout: SingleImageLayout
 id: ziapour_khorus_jangi
 
 ---
 
 ---
-
 layout: CenteredImageLayout
 image: <https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,h_1441/v1743152775/ziapour/Khorous_Jangi_1_1_annotated-1_nx7omy.png>
 
@@ -31,10 +27,9 @@ Ziapour's fighting rooster design accompanied Nima Yushij's poem
 Symbol of resistance for artistic independence and economic sovereignty
 
 ---
-
 layout: TwoImagesLayout
-image1: <https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,h_1441/v1743152775/ziapour/Khorous_Jangi_1_1_annotated-1_nx7omy.png>
-image2: <https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743141407/ziapour/picasso_rooster_g4gc74.png>
+id1: picasso_rooster
+id2: ziapour_khorus_jangi
 
 ---
 

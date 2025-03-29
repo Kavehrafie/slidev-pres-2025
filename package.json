@@ -8,6 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
+    "@rollup/plugin-yaml": "^4.1.2",
     "@slidev/cli": "^51.4.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
