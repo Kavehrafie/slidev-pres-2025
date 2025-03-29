@@ -1,0 +1,3 @@
+formatting:
+  horizontal_rule:
+    auto_newline: false # Disable automatic newline after `---`
