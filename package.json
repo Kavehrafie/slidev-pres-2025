@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "rimraf dist &&‌ slidev build *.md",
+    "build": "rimraf dist && slidev build *.md",
     "dev": "slidev --open",
     "export": "slidev export"
   },
