@@ -44,6 +44,9 @@ const combinedCaption = computed(() => {
 <template>
   <!-- Main layout: Images row fills space, caption row adjusts -->
   <div class="w-full h-full grid grid-rows-[1fr_auto] p-4 gap-2">
+    <div class="inset-0 absolute p-6">
+      <slot />
+    </div>
     <!-- Image container grid -->
     <div class="grid grid-cols-2 gap-4 overflow-hidden">
       <!-- Left Image -->
@@ -74,7 +77,6 @@ const combinedCaption = computed(() => {
         </div>
       </div>
     </div>
-
     <!-- Combined Caption container: auto height, centered -->
     <div
       v-if="customCaption || combinedCaption"

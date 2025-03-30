@@ -5,7 +5,11 @@ images:
 
   picasso_rooster:
     src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743141407/ziapour/picasso_rooster_g4gc74.png"
-    caption: "Pablo Picasso, *A Rooster*, 1938, pastel and paper, 77.5 × 54 cm"
+    caption: "Pablo Picasso, *A Rooster*, 1948, pastel and paper, 77.5 × 54 cm"
+
+  az_shar-e_sobh:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,h_1161/v1743152775/ziapour/Khorous_Jangi_1_1_annotated-2_qklcre.png"
+    caption: "“From the City of Morning (Az Shahr-e Ṣobḥ)” by Nīmā Yūshīj, 1948"
 
   pezeshkniya_rooster:
     src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_1502/v1743141411/ziapour/pezeshknia-khorus_sbetnp.jpg"
@@ -16,7 +20,7 @@ images:
     caption: "Jalil Ziāpour, *Public Bath (Hamām-e Omumi)*, 1949, oil on canvas, TMoCA"
 
   ziapour_sepahsalar:
-    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743141327/ziapour/66_3226c40e7f315ba6d1cdac46eaac03e9_1540709786_qpmhwm.jpg"
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_crop,g_north_west,h_770,w_550/v1743290112/ziapour/13WEB_kgrqqr.jpg"
     caption: "Jalil Ziāpour, Sepahsālār Mosque, 1950, oil on canvas, 80cm x 120cm, TMoCA"
 
   pezeshkniya_scientific:
@@ -35,3 +39,42 @@ images:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1743141424/ziapour/ziapour_w_giveh_he78dy.png"
     caption: "Ziapour in professional attire and giveh, Sum-i Sarā, Gilan province, in 1952. From the artist's family album."
 
+  arjangi_sepahsalar:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743298939/ziapour/arjangi_aij2nq.png"
+    caption: "Rassam Arjangi, Sepahsalar Mosque, Oil on Canvas. 29.7 in x 25.7 in. TMoCA."
+
+  mohasses_niruye_sevvom:
+    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743315770/ziapour/mohassess_sevvum_oazjn1.jpg"
+    caption: 'Bahman Moḥaṣṣeṣ, May 1, 1953. A leaflet for International Workers'' Day by The Third Force party (*Nīrūyi sivvum*), featuring the caption: "The working class will triumph — the painting is a work by Bahman Moḥaṣṣeṣ in Cubist style."'
+
+  khorus_jangi_first:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743315967/ziapour/khorus_nima_ugudjt.jpg"
+    caption: "The first volume of Khorūs Jangī magazine opened with Nīmā's poem featured on the inside cover in 1948."
+
+  tanavoli_heech:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_859/v1743320695/ziapour/20230714173537_amgyfx.jpg"
+    caption: "Parviz Tanavoli, <i>Heech</i>, 1972, Bronze, Hamline campus."
+
+  pezeshkniya_crucified:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,h_1676/v1743321640/ziapour/image_visgyi.jpg"
+    caption: "Houshang Pezeshknia, <i>Crucified</i>, 1946, oil on canvas, 122.5 x 78cm (48 1/4 x 30 11/16in)."
+
+  jazani_siyahkal:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_crop,g_south,h_1500,w_1232/v1743322279/ziapour/Siahkal_by_Bijan_Jazani_ny8bzx.jpg"
+    caption: "Bījan Jazanī, Sīyahkal, c.1970, oil on canvas."
+
+  hosseini_femme:
+    src: "https://media.mutualart.com/Images/2015_10/07/17/173444573/6446474e-37ae-4a58-be67-f73920ec0a49_570.Jpeg"
+    caption: "Hossein Kazemi, <i>Woman with a Pitcher</i>, 1957, oil on canvas,  61 x 50 cm - 24 x 19 1/2 in "
+
+  pezeshkniya_oil_workers:
+    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743349370/ziapour/houshang-pezeshknia-untitled--from-the-o-AT01Y_zhznrx.webp"
+    caption: "Houshang Pezeshknia, <i>Untitled (From the Oil Industry Workers)</i>, 1958, acrylic on paper mounted on board, 31.5 by 82 cm"
+
+  alivandi_composition_1:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_1024/v1743350950/ziapour/66_fb206104b0d985609e2464bf7880c3be_1540709919_mmlmla.jpg"
+    caption: "Bahrām `Alīvandī, <i>Composition #1</i>, n.d. TMoCA."
+
+  test:
+    src: " "
+    caption: " "

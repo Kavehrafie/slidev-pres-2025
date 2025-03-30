@@ -25,6 +25,10 @@ const image = computed(() => {
 
 <template>
   <div class="w-full h-full grid grid-rows-[1fr_auto] p-4 gap-2">
+    <!-- Render slot content only if provided -->
+    <div v-if="$slots.default" class="absolute inset-0 p-6">
+      <slot />
+    </div>
     <!-- Image container: fills available space -->
     <div class="flex items-center justify-center overflow-hidden">
       <img
