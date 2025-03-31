@@ -141,12 +141,6 @@ id: pezeshkniya_rooster
 
 ---
 layout: SingleImageLayout
-id: alivandi_composition_1
-
----
-
----
-layout: SingleImageLayout
 id: jazani_siyahkal
 
 ---
