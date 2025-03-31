@@ -75,6 +75,10 @@ images:
     src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_1024/v1743350950/ziapour/66_fb206104b0d985609e2464bf7880c3be_1540709919_mmlmla.jpg"
     caption: "Bahrām `Alīvandī, <i>Composition #1</i>, n.d. TMoCA."
 
-  test:
-    src: " "
-    caption: " "
+  school_of_fine_art:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,w_989/v1743437938/ziapour/ElV7Gw8WMAEaCBu_plhl78.jpg"
+    caption: "Students of Kamāl al-Mulk, School of Fine Arts (Ṣanāyiʿ-i Mustaẓrifa, est. 1911) in Tehran, photographed in the late 1910s."
+
+  ashtiyani_tehran:
+    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743439496/ziapour/Iran-blog-cover-1_i1mdis.jpg"
+    caption: "Ismāʿīl Āshtiyānī, 1938, <i>A View of Tehran</i>, oil on canvas"
