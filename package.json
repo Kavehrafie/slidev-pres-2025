@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build:2025gmes": "slidev build slides_2025-gmes --base /2025-gmes/ --out dist/2025-gmes",
+    "build:2025gmes": "slidev build slides_2025-gmes --base /2025/gmes/ --out dist/2025/gmes",
     "build": "rimraf dist && pnpm build:2025gmes",
     "dev": "slidev --open",
     "export": "slidev export"
