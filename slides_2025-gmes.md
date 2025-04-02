@@ -23,6 +23,7 @@ Introduction:
 layout: SingleImageLayout
 id: ziapour_khorus_jangi
 
+---
 <!--
 Ziapour's Fighting Rooster (Khorus Jangi):
 - This iconic design was the cover for the Khorus Jangi magazine, launched in 1948 by the avant-garde association of the same name (Ziapour, Shirvani, Gharib, Sheybani, Hannaneh, etc.).
@@ -30,25 +31,24 @@ Ziapour's Fighting Rooster (Khorus Jangi):
 -->
 
 ---
-
----
 layout: TwoImagesLayout
 id1: ziapour_giveh
 id2: ziapour_khorus_jangi
 
+---
 <!--
 Jalil Ziapour & the Rooster:
 - Left: Ziapour himself in 1952, a leading figure in the Khorus Jangi group and a key proponent of Cubism in Iran. Note the 'giveh' footwear, perhaps hinting at the blend of modernism and local context.
 - Right: The Khorus Jangi rooster emblem, symbolizing the group's avant-garde spirit and goals (wakefulness, resistance, modernity).
 -->
 
----
 
 ---
 layout: TwoImagesLayout
 id2: picasso_rooster
 id1: ziapour_khorus_jangi
 
+---
 <!--
 Ziapour vs. Picasso:
 - While acknowledging European influences like Picasso, the argument is that Iranian Cubism wasn't simple imitation.
@@ -56,13 +56,13 @@ Ziapour vs. Picasso:
 - Ziapour's rooster carries specific Iranian symbolism tied to the Khorus Jangi group's mission (wakefulness, resistance, modernity) beyond formal similarities.
 -->
 
----
 
 ---
 layout: TwoImagesLayout
 id1: school_of_fine_art
 id2: ashtiyani_tehran
 
+---
 <!--
 The Academic Establishment & Opposition:
 - Left: Students at the School of Fine Arts (Ṣanāyiʿ-i Mustaẓrifa, est. 1911), founded by Kamal ol-Molk. This institution represented the established academic tradition.
@@ -70,12 +70,12 @@ The Academic Establishment & Opposition:
 - Point: The Khorus Jangi modernists faced significant institutional and artistic opposition from this established tradition, which dominated Iranian art institutions at the time.
 -->
 
----
 
 ---
 layout: SingleImageLayout
 id: khorus_jangi_first
 
+---
 <!--
 Khorus Jangi Magazine & Nima Yushij:
 - This is the first issue of the Khorus Jangi magazine (1948), a key platform for the avant-garde group.
@@ -83,11 +83,10 @@ Khorus Jangi Magazine & Nima Yushij:
 - Nima wrote the poem specifically in response to the group's choice of the "Fighting Rooster" name, linking the symbol to their mission.
 -->
 
----
 
 ---
 
-## "From the City of Morning" by Nīmā Yūshīj
+## "From the City of the Morning" by Nīmā Yūshīj
 
 _Cock-a-doodle-doo, crows the rooster,_  
 _from the bottom of his solipsistic heart,_  
@@ -113,8 +112,8 @@ _Who is it, who is tired?_
 
 
 <!--
-Nima Yushij's "From the City of Morning" (Excerpt):
-- NOTE: This poem is by Nima Yushij, not Ziapour.
+NOTE:
+Nima Yushij's "From the City of the Morning" (Excerpt):
 - Key Imagery: The rooster's crow guides a caravan out of darkness ("kharāb-ābād" - ruined place) towards light/progress ("ābādān" - prosperous place), awakening "oppressed souls."
 - Connection: Directly mirrors the Khorus Jangi group's ambition to awaken public consciousness and lead Iranian culture towards modernity.
 -->
@@ -122,6 +121,8 @@ Nima Yushij's "From the City of Morning" (Excerpt):
 ---
 layout: SingleImageLayout
 id: ziapour_public_bath
+
+---
 
 <!--
 Ziapour's "Public Bath" (1949):
@@ -131,24 +132,23 @@ Ziapour's "Public Bath" (1949):
 -->
 
 ---
-
----
 layout: SingleImageLayout
 id: ziapour_sepahsalar
 
+---
 <!--
 Ziapour's "Sepahsalar Mosque" (1950):
 - Another example of Ziapour depicting local Iranian architecture through a Cubist lens.
 - Context: Illustrates the adaptation of the style. Critics like Pakbaz noted the difficulty of fitting Iranian architectural forms (mosques, bazaars) with their curvilinear elements into the "mechanistic forms" often favored by European Cubism. This led to stylistic divergences.
 -->
 
----
 
 ---
 layout: TwoImagesLayout
 id1: ziapour_sepahsalar
 id2: arjangi_sepahsalar
 
+---
 <!--
 Modernist vs. Academic Depiction:
 - Left: Ziapour's Cubist interpretation of Sepahsalar Mosque (1950).
@@ -157,12 +157,12 @@ Modernist vs. Academic Depiction:
 - Opposition Example: Critics attacked Ziapour's work, with one claiming it wasn't a 'real' mosque due to the handling of the minarets, showing resistance to modernist interpretations.
 -->
 
----
 
 ---
 layout: SingleImageLayout
 id: pezeshkniya_crucified
 
+---
 <!--
 Hushang Pezeshkniya - Early Modernism:
 - Artist: Hushang Pezeshkniya, another important modernist painter active in this period. He studied in Turkey before returning to Iran.
@@ -170,12 +170,12 @@ Hushang Pezeshkniya - Early Modernism:
 - Themes: Pezeshkniya often depicted the lives of ordinary people.
 -->
 
----
 
 ---
 layout: SingleImageLayout
 id: pezeshkniya_oil_workers
 
+---
 <!--
 Pezeshkniya - Social Themes:
 - Work: "Untitled (From the Oil Industry Workers)" (1958).
@@ -183,13 +183,12 @@ Pezeshkniya - Social Themes:
 - Style: Uses modernist fragmentation (Cubist/Expressionist influence) to portray these social themes. This aligns with the broader socially-aware current within early Iranian modernism.
 -->
 
----
-
 
 ---
 layout: SingleImageLayout
 id: hosseini_femme
 
+---
 <!--
 Hossein Kazemi - Lyrical Modernism:
 - Artist: Hossein Kazemi.
@@ -198,19 +197,16 @@ Hossein Kazemi - Lyrical Modernism:
 -->
 
 ---
-
----
 layout: SingleImageLayout
 id: sheybani_untitled
 
+---
 <!--
 Manuchehr Sheybani - Modernist & Intellectual:
 - Artist: Manuchehr Sheybani, who was also a poet and playwright with links to the Tudeh (Communist) party.
 - Style: Explored Cubism, often drawing inspiration from workers and common people, similar to Pezeshkniya. Developed his own distinct interpretations, sometimes using idiosyncratic diagonals.
 - Work: "Untitled" (1958).
 -->
-
----
 
 ---
 layout: SingleImageLayout
@@ -236,6 +232,7 @@ layout: TwoImagesLayout
 id1: tanavoli_heech
 id2: ziapour_khorus_jangi
 
+---
 <!--
 Shift After 1953: Rooster vs. Heech:
 - This comparison symbolizes the profound shift in Iranian art and culture after the 1953 coup.
@@ -245,11 +242,10 @@ Shift After 1953: Rooster vs. Heech:
 -->
 
 ---
-
----
 layout: SingleImageLayout
 id: pezeshkniya_rooster
 
+---
 <!--
 Legacy - Nostalgic Echo: Pezeshkniya's Later Rooster:
 - Artist: Hushang Pezeshkniya.
@@ -259,11 +255,10 @@ Legacy - Nostalgic Echo: Pezeshkniya's Later Rooster:
 -->
 
 ---
-
----
 layout: SingleImageLayout
 id: jazani_siyahkal
 
+---
 <!--
 Legacy - Militant Re-Politicization: Bizhan Jazani:
 - Artist: Bizhan Jazani, a prominent Marxist theorist and founder of a major guerrilla organization opposing the Shah.
@@ -272,12 +267,11 @@ Legacy - Militant Re-Politicization: Bizhan Jazani:
 -->
 
 ---
-
----
 layout: TwoImagesLayout
 id2: jazani_siyahkal
 id1: ziapour_khorus_jangi
 
+---
 <!--
 Enduring Resonance: Jazani & Ziapour:
 - Comparison: Jazani's "Siahkal" (left, c. 1970) and Ziapour's "Khorus Jangi" rooster (right, 1949).
@@ -286,4 +280,4 @@ Enduring Resonance: Jazani & Ziapour:
 - Point: Highlights the enduring power and adaptability of Cubist aesthetics as a visual language for political dissent and resistance across different moments in modern Iranian history.
 -->
 
----
+
