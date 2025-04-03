@@ -18,31 +18,6 @@ Introduction:
 - Key Characteristics: Universalist aims initially, distinct Iranian features (dynamic diagonals), faced strong opposition.
 - Cover Image: Ziapour's Sepahsalar Mosque (1950), a key work by a central figure.
 -->
-
----
-layout: SingleImageLayout
-id: ziapour_khorus_jangi
-
----
-<!--
-Ziapour's Fighting Rooster (Khorus Jangi):
-- This iconic design was the cover for the Khorus Jangi magazine, launched in 1948 by the avant-garde association of the same name (Ziapour, Shirvani, Gharib, Sheybani, Hannaneh, etc.).
-- Symbolism: Represents wakefulness, a new dawn, resistance against stagnation, artistic independence, and adapting Iranian culture to modernity/machine age. It was their visual manifesto.
--->
-
----
-layout: TwoImagesLayout
-id1: ziapour_giveh
-id2: ziapour_khorus_jangi
-
----
-<!--
-Jalil Ziapour & the Rooster:
-- Left: Ziapour himself in 1952, a leading figure in the Khorus Jangi group and a key proponent of Cubism in Iran. Note the 'giveh' footwear, perhaps hinting at the blend of modernism and local context.
-- Right: The Khorus Jangi rooster emblem, symbolizing the group's avant-garde spirit and goals (wakefulness, resistance, modernity).
--->
-
-
 ---
 layout: TwoImagesLayout
 id2: picasso_rooster
@@ -59,16 +34,21 @@ Ziapour vs. Picasso:
 
 ---
 layout: TwoImagesLayout
-id1: school_of_fine_art
-id2: ashtiyani_tehran
+id1: ziapour_giveh
+id2: ziapour_khorus_jangi
 
 ---
 <!--
-The Academic Establishment & Opposition:
-- Left: Students at the School of Fine Arts (Ṣanāyiʿ-i Mustaẓrifa, est. 1911), founded by Kamal ol-Molk. This institution represented the established academic tradition.
-- Right: Ismaʿil Ashtiyani's "View of Tehran" (1938), exemplifies the naturalist style favored by the academy.
-- Point: The Khorus Jangi modernists faced significant institutional and artistic opposition from this established tradition, which dominated Iranian art institutions at the time.
+Ziapour's Fighting Rooster (Khorus Jangi):
+- This iconic design was the cover for the Khorus Jangi magazine, launched in 1948 by the avant-garde association of the same name (Ziapour, Shirvani, Gharib, Sheybani, Hannaneh, etc.).
+- Symbolism: Represents wakefulness, a new dawn, resistance against stagnation, artistic independence, and adapting Iranian culture to modernity/machine age. It was their visual manifesto.
+
+Jalil Ziapour & the Rooster:
+- Left: Ziapour himself in 1952, a leading figure in the Khorus Jangi group and a key proponent of Cubism in Iran. Note the 'giveh' footwear, perhaps hinting at the blend of modernism and local context.
+- Right: The Khorus Jangi rooster emblem, symbolizing the group's avant-garde spirit and goals (wakefulness, resistance, modernity).
 -->
+
+
 
 
 ---
@@ -118,9 +98,11 @@ Nima Yushij's "From the City of the Morning" (Excerpt):
 - Connection: Directly mirrors the Khorus Jangi group's ambition to awaken public consciousness and lead Iranian culture towards modernity.
 -->
 
+
 ---
-layout: SingleImageLayout
-id: ziapour_public_bath
+layout: TwoImagesLayout
+id1: ziapour_public_bath
+id2: ziapour_sepahsalar
 
 ---
 
@@ -132,14 +114,16 @@ Ziapour's "Public Bath" (1949):
 -->
 
 ---
-layout: SingleImageLayout
-id: ziapour_sepahsalar
+layout: TwoImagesLayout
+id1: school_of_fine_art
+id2: ashtiyani_tehran
 
 ---
 <!--
-Ziapour's "Sepahsalar Mosque" (1950):
-- Another example of Ziapour depicting local Iranian architecture through a Cubist lens.
-- Context: Illustrates the adaptation of the style. Critics like Pakbaz noted the difficulty of fitting Iranian architectural forms (mosques, bazaars) with their curvilinear elements into the "mechanistic forms" often favored by European Cubism. This led to stylistic divergences.
+The Academic Establishment & Opposition:
+- Left: Students at the School of Fine Arts (Ṣanāyiʿ-i Mustaẓrifa, est. 1911), founded by Kamal ol-Molk. This institution represented the established academic tradition.
+- Right: Ismaʿil Ashtiyani's "View of Tehran" (1938), exemplifies the naturalist style favored by the academy.
+- Point: The Khorus Jangi modernists faced significant institutional and artistic opposition from this established tradition, which dominated Iranian art institutions at the time.
 -->
 
 
@@ -150,6 +134,10 @@ id2: arjangi_sepahsalar
 
 ---
 <!--
+Ziapour's "Sepahsalar Mosque" (1950):
+- Another example of Ziapour depicting local Iranian architecture through a Cubist lens.
+- Context: Illustrates the adaptation of the style. Critics like Pakbaz noted the difficulty of fitting Iranian architectural forms (mosques, bazaars) with their curvilinear elements into the "mechanistic forms" often favored by European Cubism. This led to stylistic divergences.
+
 Modernist vs. Academic Depiction:
 - Left: Ziapour's Cubist interpretation of Sepahsalar Mosque (1950).
 - Right: Rassam Arjangi's traditional, naturalist painting of the same mosque. Arjangi was associated with the Kamal ol-Molk school.
@@ -168,20 +156,13 @@ Hushang Pezeshkniya - Early Modernism:
 - Artist: Hushang Pezeshkniya, another important modernist painter active in this period. He studied in Turkey before returning to Iran.
 - Work: "Crucified" (1946). This early date shows engagement with modern European forms (Expressionism/Cubism influences) even before the formal establishment of Khorus Jangi.
 - Themes: Pezeshkniya often depicted the lives of ordinary people.
--->
-
-
----
-layout: SingleImageLayout
-id: pezeshkniya_oil_workers
-
----
-<!--
 Pezeshkniya - Social Themes:
 - Work: "Untitled (From the Oil Industry Workers)" (1958).
 - Context: Shows Pezeshkniya depicting the lives of common people and laborers, specifically oil workers in Abadan.
 - Style: Uses modernist fragmentation (Cubist/Expressionist influence) to portray these social themes. This aligns with the broader socially-aware current within early Iranian modernism.
 -->
+
+
 
 
 ---
@@ -225,7 +206,15 @@ Bahman Mohasses - Cubism & Politics Pre-Coup:
 - Artist: Bahman Mohasses, sometimes associated with the Khorus Jangi circle.
 - Context: This is a leaflet for International Workers' Day (May 1, 1953) by the Third Force (Niruyi Sivvum) political party.
 - Significance: The caption explicitly labels Mohasses's work as "Cubist style" and links it directly to the triumph of the working class. This demonstrates the clear association of Cubism with progressive politics in the period immediately preceding the August 1953 coup.
+- The **Third Force (Niruyi Sivvum)** emerged from a significant split within the **Tudeh Party** of Iran in the late 1940s (around 1947-1948).
 -->
+
+---
+layout: TwoImagesLayout
+id1: tehran_biennial_1958
+id2: tanavoli_heech
+
+---
 
 ---
 layout: TwoImagesLayout
@@ -247,11 +236,9 @@ id: pezeshkniya_rooster
 
 ---
 <!--
+he moved to Abadan, the hub of Iranian oil industry in the late 1948 on the invitation of Ibrahim Golestan who was commissioned to create a documentary on the Anglo-Persian Oil Company.
+in 1958, he returned to Tehran
 Legacy - Nostalgic Echo: Pezeshkniya's Later Rooster:
-- Artist: Hushang Pezeshkniya.
-- Work: "Rooster" (late 1960s).
-- Context: Cubism didn't vanish post-coup but often reappeared on the periphery. This later work by Pezeshkniya can be seen as a nostalgic echo of the earlier Khorus Jangi spirit and its rooster emblem.
-- Note: Pezeshkniya distanced himself somewhat from the Tehran art establishment in later years.
 -->
 
 ---

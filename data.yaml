@@ -82,3 +82,11 @@ images:
   ashtiyani_tehran:
     src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743439496/ziapour/Iran-blog-cover-1_i1mdis.jpg"
     caption: "Ismāʿīl Āshtiyānī, 1938, <i>A View of Tehran</i>, oil on canvas"
+
+  tehran_biennial_1958:
+    src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_958/v1743661347/ziapour/1-001_lv9m6n.jpg"
+    caption: "The cover of the First Tehran Biennial by Naṣir Ovisī"
+
+  picasso_still_life_1911:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743667017/ziapour/restricted_ix5j5r.jpg"
+    caption: "Pablo Picasso, <i>Still Life with a Bottle of Rum</i>, 1911, oil on canvas."
