@@ -6,3 +6,7 @@ dist
 .remote-assets
 components.d.ts
 .obsidian
+.env
+.dev.vars
+.wrangler
+

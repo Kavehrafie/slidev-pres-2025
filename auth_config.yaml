@@ -1,0 +1,24 @@
+# Configuration for Cloudflare Pages Basic Authentication Middleware
+# This file is processed by scripts/generate-auth-config.js
+
+auth:
+  # Set to true to enable Basic Authentication
+  enabled: true
+
+  # Maps logical secret names used in 'rules' to actual environment variable names.
+  # The environment variable names should start with '$' to be treated as placeholders.
+  secrets:
+    default: $SECRET # The default password for general access
+
+  # Defines which paths require authentication and which secret to use.
+  # Rules are checked in order. The first matching rule applies.
+  rules:
+    - pathPrefix: / # Protect all paths starting from the root
+      secretName: default # Use the 'default' secret defined above
+
+
+  # Optional: List of path prefixes to exclude from authentication.
+  # excludedPaths:
+  #   - /public
+  #   - /assets
+  #   - /favicon.ico
