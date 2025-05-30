@@ -16,9 +16,9 @@ auth:
     - pathPrefix: / # Protect all paths starting from the root
       secretName: default # Use the 'default' secret defined above
 
-
   # Optional: List of path prefixes to exclude from authentication.
-  # excludedPaths:
-  #   - /public
-  #   - /assets
-  #   - /favicon.ico
+  excludedPaths:
+    - /public
+    - /assets
+    - /favicon.ico
+    - /2025/reading-capital

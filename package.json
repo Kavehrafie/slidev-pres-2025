@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "build:2025gmes": "slidev build slides_2025-gmes --base /2025/gmes/ --out dist/2025/gmes",
-    "build": "rimraf dist && pnpm generate:auth-config && pnpm build:2025gmes",
+    "build:2025defense": "slidev build slides_2025-defense --base /2025/defense/ --out dist/2025/defense",
+    "build:2025readingcapital": "slidev build slides_2025-reading-capital --base /2025/reading-capital/ --out dist/2025/reading-capital",
+    "build": "rimraf dist && pnpm generate:auth-config && pnpm build:2025gmes && pnpm build:2025readingcapital && pnpm build:2025defense",
     "dev": "slidev --open",
     "generate:auth-config": "node scripts/generate-auth-config.js",
     "export": "slidev export"
