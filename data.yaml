@@ -90,3 +90,23 @@ images:
   picasso_still_life_1911:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1743667017/ziapour/restricted_ix5j5r.jpg"
     caption: "Pablo Picasso, <i>Still Life with a Bottle of Rum</i>, 1911, oil on canvas."
+
+  apadana_poster:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749598042/ziapour/apadana_poster_punmrx.jpg"
+    caption: "An advertisement for the Āpādānā Gallery in c.1950, Tehran, Iran."
+
+  apadana_membership_card:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749598052/ziapour/apadana_membership_card_hvbxgj.jpg"
+    caption: "A picture of the Āpādānā Membership Card"
+
+  ziapour_ethnographer:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743141424/ziapour/ziapour_w_giveh_he78dy.png"
+    caption: "Jalil Ziapour (1920&ndash;1999) in professional attire and giveh, 1952, Ṣawmaʿa Sarā, Gilan province, Iran"
+
+  tanavoli_ethnographer:
+    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1749666104/ziapour/tanavoli-1997-qashqai-girl_ujzm8m.jpg"
+    caption: "Parviz Tanavoli (b.1937) photographing a Qashqayi girl, 1995, Iran"
+
+  monir_ethnographer:
+    src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1749679634/ziapour/Screenshot_20250611_150537_iihvsl.png"
+    caption: "Monir Shahroudy Farmanfarmaian (1924&ndash;2019) wearing an Uzbek scarf next to a Turkmen man, the 1970s, Iran"

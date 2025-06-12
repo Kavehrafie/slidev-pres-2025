@@ -5,3 +5,61 @@ h1 {
 h2 {
   @apply text-2xl font-semibold;
 }
+
+.slidev-vclick-target {
+  transition:
+    250ms max-height ease,
+    opacity 500ms ease,
+    transform 350ms ease;
+  max-height: 200px;
+}
+
+.slidev-vclick-hidden {
+  transform: translateY(30px);
+  opacity: 0;
+  max-height: 0;
+  /* display: none; */
+}
+
+ol {
+  counter-reset: item;
+}
+li {
+  display: block;
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+/* List transition effects */
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+/* Ensure leaving items are taken out of layout flow */
+.list-leave-active {
+  position: absolute;
+}
+/* Smooth movement for remaining items */
+.list-move {
+  transition: transform 0.5s ease;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
