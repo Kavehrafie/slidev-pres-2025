@@ -4,25 +4,26 @@ theme: academic
 layout: cover
 coverAuthor: [Kaveh Rafie]
 coverBackgroundUrl: https://res.cloudinary.com/image-solar/image/upload/f_auto/v1749666104/ziapour/tanavoli-1997-qashqai-girl_ujzm8m.jpg
-data: data.yaml
+dataPath: /data.yaml
 mdc: true
 themeConfig:
   paginationX: r
   paginationY: t
-  paginationPageDisabled: [1]
+  paginationPagesDisabled: [1, 3, 4]
 info: |
   # defense 2025
 ---
 
 # Pleated Modernity
 
-## On the Anthropologization of Modern Art in Iran, 1941–1979
+## On the Anthropologization of Modern Art in Iran, 1941--1979
 
 Advisor: Blake Stimson
 
-Committee: Elise Archias, Norma , Nicholas , and Peyman Vahabzadeh
+Committee: Elise Archias, Norma Claire Moruzzi, Nicholas Brown, and Peyman Vahabzadeh
 <!--
 Introduction:
+This study explore that the ways in which the modern art in the Global South in the Post-War gradually became entangled with ethnograpy. To emphesize the context of the Cold War during this era, I used third-world (a third alternative to the Soviet socialism and the US liberal democracy) of other alternative to discuss Iran as a developing nation. In a sense this research is a case study of three iranian artist to explore the rise of modernism in Iran and its later turn to anthropology later on prior the Islamic revolution in 1979. Thus this project can be seen as a contrbution to the understanding of the development of art in the post-war era and Iran as a examplary of a thridworld country struggleing with its contradictions.
 
 -->
 ---
@@ -38,10 +39,16 @@ separator: ' | '
 -->
 
 ---
-src: ./pages/diss.outline.md
+src: ./pages/diss/timeline.md
 ---
 
+---
+src: ./pages/diss/sepahsalar_x2.md
+---
 
+---
+src: ./pages/diss/rooster_vs_heech.md
+---
 
 
 ---
@@ -74,40 +81,6 @@ Khorus Jangi Magazine & Nima Yushij:
 -->
 
 
----
-
-## "From the City of the Morning" by Nīmā Yūshīj
-
-_Cock-a-doodle-doo, crows the rooster,_
-_from the bottom of his solipsistic heart,_
-_from the depths of the way, like a dry vein,_
-_his voice pumps blood into lifeless corpse,_
-...
-
-_his voice delivers the message (of hope) to the free ear,_
-_shows the caravan its way to ābādān,_
-_through this kharāb-ābād._
-
-_He strolls gently,_
-_He chants warmly,_
-_Beating his wings,_
-_Spreading his feathers._
-
-_Longing for his voice, the caravan listens intently,_
-_is in high spirit because of its elegant voice,_
-_Cock-a-doodle-doo. On this dark path,_
-_Who is it who has fallen behind?_
-_Who is it, who is tired?_
-...
-
-
-<!--
-NOTE:
-Nima Yushij's "From the City of the Morning" (Excerpt):
-- Key Imagery: The rooster's crow guides a caravan out of darkness ("kharāb-ābād" - ruined place) towards light/progress ("ābādān" - prosperous place), awakening "oppressed souls."
-- Connection: Directly mirrors the Khorus Jangi group's ambition to awaken public consciousness and lead Iranian culture towards modernity.
--->
-
 
 ---
 layout: TwoImagesLayout
@@ -137,23 +110,7 @@ The Academic Establishment & Opposition:
 -->
 
 
----
-layout: TwoImagesLayout
-id1: ziapour_sepahsalar
-id2: arjangi_sepahsalar
 
----
-<!--
-Ziapour's "Sepahsalar Mosque" (1950):
-- Another example of Ziapour depicting local Iranian architecture through a Cubist lens.
-- Context: Illustrates the adaptation of the style. Critics like Pakbaz noted the difficulty of fitting Iranian architectural forms (mosques, bazaars) with their curvilinear elements into the "mechanistic forms" often favored by European Cubism. This led to stylistic divergences.
-
-Modernist vs. Academic Depiction:
-- Left: Ziapour's Cubist interpretation of Sepahsalar Mosque (1950).
-- Right: Rassam Arjangi's traditional, naturalist painting of the same mosque. Arjangi was associated with the Kamal ol-Molk school.
-- Point: This stark comparison highlights the stylistic clash between the emerging modernism and the established academic style.
-- Opposition Example: Critics attacked Ziapour's work, with one claiming it wasn't a 'real' mosque due to the handling of the minarets, showing resistance to modernist interpretations.
--->
 
 
 ---
@@ -277,23 +234,47 @@ Enduring Resonance: Jazani & Ziapour:
 - Point: Highlights the enduring power and adaptability of Cubist aesthetics as a visual language for political dissent and resistance across different moments in modern Iranian history.
 -->
 
+---
+src: ./pages/diss/alkhas-mural.md
+---
+
 
 
 ---
+src: ./pages/diss/table.md
 ---
 
 
+---
 
-| **Modernist Primitivism**                                | **Cold War "Local Modernism"**                       |
-| -------------------------------------------------------- | ---------------------------------------------------- |
-| Ahistorical appropriation (e.g., "African art" as style) | Anthropological framing (culture-as-document)        |
-| Formalist reduction (mask as pure form)                  | Geopolitical instrumentalization (art as soft power) |
-| Universalist (European avant-garde as apex)              | Pluralist (strategic celebration of difference)      |
+## "From the City of the Morning" by Nīmā Yūshīj
 
-The key difference between the **European** and **American** models of art education
+_Cock-a-doodle-doo, crows the rooster,_
+_from the bottom of his solipsistic heart,_
+_from the depths of the way, like a dry vein,_
+_his voice pumps blood into lifeless corpse,_
+...
 
-| **European Model**                     | **American Cold War Model**               |
-| -------------------------------------- | ----------------------------------------- |
-| Universalist (art as transcendent)     | Pluralist (art as geopolitical tool)      |
-| Primitivism = formal reduction         | Ethnography = curated authenticity        |
-| Centralized (Paris/Berlin as capitals) | Networked (global "free world" alliances) |
+_his voice delivers the message (of hope) to the free ear,_
+_shows the caravan its way to ābādān,_
+_through this kharāb-ābād._
+
+_He strolls gently,_
+_He chants warmly,_
+_Beating his wings,_
+_Spreading his feathers._
+
+_Longing for his voice, the caravan listens intently,_
+_is in high spirit because of its elegant voice,_
+_Cock-a-doodle-doo. On this dark path,_
+_Who is it who has fallen behind?_
+_Who is it, who is tired?_
+...
+
+
+<!--
+NOTE:
+Nima Yushij's "From the City of the Morning" (Excerpt):
+- Key Imagery: The rooster's crow guides a caravan out of darkness ("kharāb-ābād" - ruined place) towards light/progress ("ābādān" - prosperous place), awakening "oppressed souls."
+- Connection: Directly mirrors the Khorus Jangi group's ambition to awaken public consciousness and lead Iranian culture towards modernity.
+-->
