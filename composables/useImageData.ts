@@ -5,6 +5,7 @@ const pathCache = ref<string | null>();
 export function useImageData() {
   const loadData = async (path: string) => {
     if (pathCache.value === path) {
+      console.log("Data already loaded using cache!");
       return;
     }
     try {

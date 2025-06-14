@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import data from "../data.yaml"; // Import YAML data
+import { useImageData } from "../composables/useImageData";
+import { useSlideContext } from "@slidev/client";
+import { onMounted } from "vue";
 
 // Define props for image IDs and an optional custom caption
 const props = defineProps<{
@@ -9,9 +11,16 @@ const props = defineProps<{
   customCaption?: string;
 }>();
 
+const { $slidev } = useSlideContext();
+const { imageData, loadData } = useImageData();
+
+onMounted(async () => {
+  await loadData($slidev.configs?.dataPath);
+});
+
 // Helper function to get image data or return a fallback
 const getImageData = (id: string) => {
-  const images = data?.images || {};
+  const images = imageData.value?.images || {};
   return (
     images[id] || {
       src: "",
@@ -50,7 +59,10 @@ const combinedCaption = computed(() => {
     <!-- Image container grid -->
     <div class="grid grid-cols-2 gap-4 overflow-hidden">
       <!-- Left Image -->
-      <div class="flex items-center justify-center overflow-hidden">
+      <div
+        class="flex flex-col gap-2 items-center justify-center overflow-hidden"
+      >
+        <slot name="left" />
         <img
           v-if="image1Data.src"
           :src="image1Data.src"
@@ -64,7 +76,10 @@ const combinedCaption = computed(() => {
       </div>
 
       <!-- Right Image -->
-      <div class="flex items-center justify-center overflow-hidden">
+      <div
+        class="flex flex-col gap-2 items-center justify-center overflow-hidden"
+      >
+        <slot name="right" />
         <img
           v-if="image2Data.src"
           :src="image2Data.src"

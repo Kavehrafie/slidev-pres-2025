@@ -23,9 +23,13 @@ Advisor: Blake Stimson
 Committee: Elise Archias, Norma Claire Moruzzi, Nicholas Brown, and Peyman Vahabzadeh
 <!--
 Introduction:
-This study explore that the ways in which the modern art in the Global South in the Post-War gradually became entangled with ethnograpy. To emphesize the context of the Cold War during this era, I used third-world (a third alternative to the Soviet socialism and the US liberal democracy) of other alternative to discuss Iran as a developing nation. In a sense this research is a case study of three iranian artist to explore the rise of modernism in Iran and its later turn to anthropology later on prior the Islamic revolution in 1979. Thus this project can be seen as a contrbution to the understanding of the development of art in the post-war era and Iran as a examplary of a thridworld country struggleing with its contradictions.
 
 -->
+
+---
+src: ./pages/diss/new-outline.md
+---
+
 ---
 layout: MultiImagesLayout
 ids:
@@ -34,22 +38,62 @@ ids:
   - monir_ethnographer
 separator: ' | '
 ---
-<!--
-
--->
 
 ---
-src: ./pages/diss/timeline.md
+src: ./pages/diss/ch1.md
 ---
 
 ---
-src: ./pages/diss/sepahsalar_x2.md
+src: ./pages/diss/ch2.md
 ---
+
+---
+layout: HeaderStatement
+opacity: 0.5
+scale: 0.8
+x: -90
+---
+
+<ChapterMove>
+
+## Chapter III
+</ChapterMove>
+
+#  Parviz Tanavoli as Poet-Prophet
+
+::statement::
+
+## Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+
+---
+layout: HeaderStatement
+opacity: 0.5
+scale: 0.8
+x: -90
+---
+
+<ChapterMove>
+
+## Chapter IV
+</ChapterMove>
+
+# Monir Farmanfarmaian as Occult Technician
+
+::statement::
+
+## Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development. Its purpose is to permit a page layout to be designed, independently of the copy that will subsequently populate it, or to demonstrate various fonts of a typeface without meaningful text that could be distracting. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin
+
+
+
+
 
 ---
 src: ./pages/diss/rooster_vs_heech.md
 ---
 
+---
+src: ./pages/diss/timeline.md
+---
 
 ---
 layout: TwoImagesLayout
@@ -78,35 +122,6 @@ Khorus Jangi Magazine & Nima Yushij:
 - This is the first issue of the Khorus Jangi magazine (1948), a key platform for the avant-garde group.
 - Inside cover features the poem "From the City of Morning" by the highly influential modernist poet Nima Yushij.
 - Nima wrote the poem specifically in response to the group's choice of the "Fighting Rooster" name, linking the symbol to their mission.
--->
-
-
-
----
-layout: TwoImagesLayout
-id1: ziapour_public_bath
-id2: ziapour_sepahsalar
-
----
-
-<!--
-Ziapour's "Public Bath" (1949):
-- Example of Ziapour applying Cubism to local Iranian subjects and everyday life.
-- Significance: This painting was famously vandalized (slashed) during its first exhibition in 1950 by followers of the academic painter Kamal ol-Molk.
-- Context: Demonstrates the fierce opposition the modernists faced from the established art world. Also touches on the challenge noted by critics like Pakbaz of adapting Cubist geometry to local, often curvilinear, forms.
--->
-
----
-layout: TwoImagesLayout
-id1: school_of_fine_art
-id2: ashtiyani_tehran
-
----
-<!--
-The Academic Establishment & Opposition:
-- Left: Students at the School of Fine Arts (Ṣanāyiʿ-i Mustaẓrifa, est. 1911), founded by Kamal ol-Molk. This institution represented the established academic tradition.
-- Right: Ismaʿil Ashtiyani's "View of Tehran" (1938), exemplifies the naturalist style favored by the academy.
-- Point: The Khorus Jangi modernists faced significant institutional and artistic opposition from this established tradition, which dominated Iranian art institutions at the time.
 -->
 
 
@@ -176,12 +191,7 @@ Bahman Mohasses - Cubism & Politics Pre-Coup:
 - The **Third Force (Niruyi Sivvum)** emerged from a significant split within the **Tudeh Party** of Iran in the late 1940s (around 1947-1948).
 -->
 
----
-layout: TwoImagesLayout
-id1: tehran_biennial_1958
-id2: tanavoli_heech
 
----
 
 ---
 layout: TwoImagesLayout

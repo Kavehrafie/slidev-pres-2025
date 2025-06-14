@@ -2,7 +2,7 @@
 import { ref, watch } from "vue";
 import { useSlideContext } from "@slidev/client";
 import { tv } from "tailwind-variants";
-import { cn } from "../utilities";
+import { computed } from "vue";
 
 const { $clicks } = useSlideContext();
 
@@ -11,11 +11,11 @@ type TimelineEvent = {
   title: string;
   description?: string;
   image?: string;
-  variant?: "default" | "highlight" | "minimal";
+  variant?: "default" | "stacked";
+  icon?: null | "art" | "war" | "revolution";
 };
 
 const props = defineProps<{
-  title?: string;
   events: TimelineEvent[];
   variant?: "horizontal" | "vertical";
 }>();
@@ -23,56 +23,62 @@ const props = defineProps<{
 const eventRefs = ref<(HTMLElement | null)[]>([]);
 const timelineContainerRef = ref<HTMLElement | null>(null);
 
+const count = computed(() => props.events.length);
+
 // Tailwind variants for timeline styling
+// horizontal and vertical option must be implemented
 const timelineVariants = tv({
   slots: {
-    container: "flex items-center justify-center h-full w-full p-8",
-    title: "text-4xl font-bold text-center",
-    timeline: "relative flex items-center gap-12 py-68 px-2 w-[fit-content]",
-    line: "absolute h-1 bg-primary rounded-full",
-    event: "relative flex flex-col items-center min-w-[300px] group",
-    dot: "relative z-10 w-4 h-4 rounded-full border-4 transition-all duration-300",
-    content:
-      "absolute text-center px-4 transition-all duration-300 group-hover:scale-110",
-    year: "font-bold mb-2",
-    description: "text-sm opacity-80 leading-relaxed",
-    image: "rounded-lg shadow-lg object-cover",
-    imageContainer: "flex items-center gap-4 justify-between",
+    title: "text-xl font-bold ",
+    line: "grid-timeline bg-primary h-2 ",
+    event:
+      "relative w-[400px] group flex flex-col justify-between border-l-2 dark:border-l-zinc-700 ",
+    content: "flex px-4 gap-2 transition-all duration-300 py-2",
+    year: "font-bold mb-2 px-4 dark:text-zinc-500",
+    description: "",
+    image: "max-h-[150px] max-w-[200px] w-auto object-contain rounded",
+    icon: "block text-lg m-auto",
   },
   variants: {
     variant: {
       horizontal: {
-        timeline: "flex-row",
-        line: "top-1/2 left-8 right-8 h-1 w-auto -translate-y-1/2",
+        timeline: "",
+        line: "",
       },
       vertical: {
-        timeline: "flex-col gap-8",
-        line: "left-1/2 top-8 bottom-8 w-1 h-auto -translate-x-1/2",
+        timeline: "",
+        line: "",
+      },
+    },
+    iconVariant: {
+      war: {
+        icon: "i-ph-airplane-tilt-fill ",
+      },
+      art: {
+        icon: "i-ph-paint-brush-fill",
+      },
+      revolution: {
+        icon: "i-ph-hand-fist-fill",
+      },
+      flag: {
+        icon: "i-ph-flag-banner-fold-fill",
       },
     },
     eventVariant: {
       default: {
-        dot: "bg-zinc-100 dark:bg-zinc-900 border-primary",
         year: "text-2xl",
         title: "text-lg",
       },
-      highlight: {
-        dot: "bg-purple-500 border-purple-600 scale-110",
-        year: "text-2xl text-purple-600",
-        title: "text-lg text-purple-800",
-      },
-      minimal: {
-        dot: "bg-gray-300 border-gray-400",
-        year: "text-xl text-gray-600",
-        title: "text-base text-gray-700",
+      stacked: {
+        content: "flex-col",
       },
     },
     position: {
       above: {
-        content: "bottom-18",
+        event: "grid-upper ",
       },
       below: {
-        content: "top-18",
+        event: "grid-lower flex-col-reverse",
       },
     },
   },
@@ -86,7 +92,6 @@ const styles = timelineVariants({
   variant: props.variant || "horizontal",
 });
 
-// Watch for clicks to scroll to events
 watch($clicks, (currentClick) => {
   const container = timelineContainerRef.value;
   if (!container || !eventRefs.value.length) return;
@@ -97,8 +102,8 @@ watch($clicks, (currentClick) => {
     if (targetEvent) {
       targetEvent.scrollIntoView({
         behavior: "smooth",
-        inline: "center",
-        block: "nearest",
+        block: "end",
+        inline: "nearest",
       });
     }
   }
@@ -106,126 +111,99 @@ watch($clicks, (currentClick) => {
 </script>
 
 <template>
-  <div :class="styles.container()">
-    <div class="w-full max-w-7xl">
-      <h1 v-if="title" :class="styles.title()">
-        {{ title }}
-      </h1>
+  <div class="flex w-screen h-full">
+    <div class="top-0 left-0 sticky z-10 relative flex">
+      <div class="absolute">
+        <slot />
+      </div>
+    </div>
+    <div
+      ref="timelineContainerRef"
+      class="container-grid h-full w-full overflow-hidden"
+    >
+      <!-- Timeline line -->
+      <div :class="styles.line()"></div>
 
-      <div
-        ref="timelineContainerRef"
-        :class="styles.timeline()"
-        class="scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent"
-      >
-        <!-- Timeline line -->
-        <div :class="styles.line()" />
-
-        <!-- Timeline events -->
+      <!-- Timeline events -->
+      <v-clicks>
         <div
           v-for="(event, index) in events"
-          v-click
           :key="index"
-          :ref="(el) => (eventRefs[index] = el as HTMLElement)"
-          :class="styles.event()"
+          :ref="(el: HTMLElement | null) => (eventRefs[index] = el)"
+          :class="
+            styles.event({
+              position: index % 2 === 0 ? 'above' : 'below',
+            })
+          "
+          :style="{ 'grid-column-start': index + 2 }"
         >
-          <!-- Connector dot -->
-          <div
-            :class="
-              styles.dot({
-                eventVariant: event.variant || 'default',
-              })
-            "
-          />
+          <h4 :class="styles.year()">{{ event.year }}</h4>
 
-          <!-- Event content -->
+          <div :class="styles.content({ eventVariant: event.variant })">
+            <!-- title -->
+            <p
+              :class="styles.title()"
+              v-html="event.title.replace(/\*(.*?)\*/g, '<i>$1</i>')"
+            ></p>
+
+            <!-- image -->
+            <img :src="event.image" :class="styles.image()" />
+          </div>
+
+          <br />
+          <!-- TODO: the  background solution is temporary -->
           <div
-            :class="
-              styles.content({
-                position: index % 2 === 0 ? 'above' : 'below',
-              })
-            "
+            class="-my-10 -mx-4 rounded-full bg-[rgb(18_18_18)] w-6 h-6 flex justify-center items-center border-3 border-primary box-content"
           >
-            <!-- Content with image -->
-            <div v-if="event.image" :class="styles.imageContainer()">
-              <div class="my-auto">
-                <div
-                  :class="
-                    cn(
-                      styles.year({
-                        eventVariant: event.variant || 'default',
-                      }),
-                      'text-right',
-                    )
-                  "
-                >
-                  {{ event.year }}
-                </div>
-                <div
-                  v-if="event.title"
-                  :class="
-                    cn(
-                      styles.title({
-                        eventVariant: event.variant || 'default',
-                      }),
-                      'text-right',
-                    )
-                  "
-                >
-                  {{ event.title }}
-                </div>
-              </div>
-              <img
-                :src="event.image"
-                :alt="event.title"
-                :class="styles.image()"
-                class="w-40 h-40"
-              />
-            </div>
-
-            <!-- Content without image -->
-            <template v-else>
-              <div
-                :class="
-                  styles.year({
-                    eventVariant: event.variant || 'default',
-                  })
-                "
-              >
-                {{ event.year }}
-              </div>
-              <div
-                v-if="event.title"
-                :class="
-                  styles.title({
-                    eventVariant: event.variant || 'default',
-                  })
-                "
-              >
-                {{ event.title }}
-              </div>
-            </template>
-
-            <!-- Description -->
-            <div v-if="event.description" :class="styles.description()">
-              {{ event.description }}
-            </div>
+            <span :class="styles.icon({ iconVariant: event.icon })"></span>
           </div>
         </div>
-      </div>
+      </v-clicks>
     </div>
   </div>
 </template>
 
 <style scoped>
+.container-grid {
+  display: grid;
+  grid-template-rows: 20px 1fr minmax(50px, auto) 1fr 20px;
+  grid-template-columns: 150px repeat(v-bind("count"), minmax(200px, 1fr)) 150px;
+}
+
+.grid-upper {
+  grid-row: 2 / 3;
+  grid-column: span 1;
+}
+
+.grid-timeline {
+  grid-row: 3/4;
+  grid-column: 1 / -1;
+  align-self: center;
+}
+
+.grid-lower {
+  grid-row: 4 / 5;
+  grid-column: span 1;
+}
+
 /* Minimal custom styles for animations and scrollbar */
 .slidev-vclick-target {
   transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  h2 {
+    opacity: 1;
+    transition-delay: 300ms;
+    transition: all 200ms ease-out;
+  }
 }
 
 .slidev-vclick-hidden {
   opacity: 0;
-  transform: translateY(20px);
   pointer-events: none;
+  transform: translateX(-40px);
+  h2 {
+    opacity: 0;
+    transform: translateY(40px);
+  }
 }
 
 /* Custom scrollbar for better UX */

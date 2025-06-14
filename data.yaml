@@ -17,7 +17,7 @@ images:
 
   ziapour_public_bath:
     src: "https://res.cloudinary.com/image-solar/image/upload/f_auto/v1743141291/ziapour/56cc3baf-8325-4894-a00b-a5a1d94e9db7_yvkou2.png"
-    caption: "Jalil Ziāpour, *Public Bath (Hamām-e Omumi)*, 1949, oil on canvas, TMoCA"
+    caption: "Jalil Ziāpour, <i>Public Bath (Hamām-i Umūmī)</i>, 1949, oil on canvas, TMoCA"
 
   ziapour_sepahsalar:
     src: "https://res.cloudinary.com/image-solar/image/upload/c_crop,g_north_west,h_770,w_550/v1743290112/ziapour/13WEB_kgrqqr.jpg"
@@ -85,7 +85,7 @@ images:
 
   tehran_biennial_1958:
     src: "https://res.cloudinary.com/image-solar/image/upload/c_scale,f_auto,w_958/v1743661347/ziapour/1-001_lv9m6n.jpg"
-    caption: "The cover of the First Tehran Biennial by Naṣir Ovisī"
+    caption: "The cover of the First Tehran Biennial by Nāṣir Oviysī"
 
   picasso_still_life_1911:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1743667017/ziapour/restricted_ix5j5r.jpg"
@@ -114,3 +114,27 @@ images:
   monir_cardboard_tent_lg:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1749733572/ziapour/Untitled69_bbcfce.jpg"
     caption: " Monir Farmanfarmaian, Nomadic Tent, cardboards and papier-mâché, 20 ×20 inch"
+
+  ziapour_kaveh:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743141427/ziapour/ziapour-kaveh_v6ekyd.png"
+    caption: "alil Ziapur, The Uprising of Kaveh, c. 1945, oil on canvas. Courtesy of Mahsha Ziapour"
+
+  apadana_pub_exh:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749933341/ziapour/apadana_opening_atg390.png"
+    caption: An exhibition opening at Āpādānā Gallery, c.1949
+
+  ziapour_zeynab:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1743141149/ziapour/bf77514d-89ea-4f6c-90c5-4d1c2e13c721_v2obsd.png"
+    caption: Jalil Ziapour, Ms. Zaynab (Ziynab Khātūn), oil on canvas, 130 × 120 cm, TMoCA
+
+  ziapour_sketch_baluchi:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749937846/ziapour/ziapour_dress_baluchi_jfl2mv.png"
+    caption:
+
+  ziapour_sketch_quchani:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749937841/ziapour/ziapour_zane_kurd_skch_gg5nzj.png"
+    caption: "Jalil Ziapour, An sketch of a Kurdish woman from Qūchān, undated, paper and gouache"
+
+  ziapour_quchani:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749938343/ziapour/66_ef0fa472b9c2f50d55458e03d9c8ec00_1540709802_yh3rcu.jpg"
+    caption: "Jalil Ziapour, <i>A Kurdish Woman</i>, likely the late 1950s but first exhibited in 1959, TMoCA"

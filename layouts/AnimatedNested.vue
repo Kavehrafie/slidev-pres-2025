@@ -2,7 +2,6 @@
 import { computed } from "vue";
 import Nested from "../components/Nested.vue";
 import { useSlideContext } from "@slidev/client";
-import { transformVNodeArgs } from "vue";
 
 type ListItem = {
   id: string;
@@ -156,4 +155,14 @@ function applyAction(list: ListItem[], actionItem: ListItem) {
 
 <style scoped>
 /* Add any layout-specific styles here if needed */
+ol {
+  counter-reset: item;
+}
+li {
+  display: block;
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
 </style>

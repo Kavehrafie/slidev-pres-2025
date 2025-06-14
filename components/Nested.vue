@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, type PropType } from "vue";
+import { tv } from "tailwind-variants";
 
 type ListItem = {
   id: string;
