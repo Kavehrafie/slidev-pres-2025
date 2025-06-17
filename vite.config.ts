@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import yaml from "@rollup/plugin-yaml";
+import { cloudflare } from "@cloudflare/vite-plugin";
 export default defineConfig({
   slidev: {
     vue: {
@@ -13,5 +14,8 @@ export default defineConfig({
     },
     /* options for other plugins */
   },
-  plugins: [yaml()],
+  plugins: [
+    yaml(),
+    ...(process.env.NODE_ENV === "production" ? [cloudflare()] : []),
+  ],
 });
