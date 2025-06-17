@@ -27,10 +27,10 @@ events:
     image: "https://res.cloudinary.com/image-solar/image/upload/v1749665473/ziapour/Hanibal_Alkhas_kwtzi7.jpg"
 ---
 
-<div class="bg-zinc-900 w-76 h-screen p-8" v-click="'2'" v-click.hide="'3'">
+<!-- <div class="bg-zinc-900 w-76 h-screen p-8" v-click="'2'" v-click.hide="'3'">
 
 ## Thesis one
 
 <Image id="ziapour_kaveh" />
 
-</div>
+</div> -->

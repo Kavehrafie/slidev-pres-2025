@@ -1,4 +1,17 @@
 ---
+layout: HeaderStatement
+opacity: 0.5
+scale: 0.8
+x: -90
+---
+
+# Coda
+
+::statement::
+
+## The conclusion examines how geometric abstraction evolved from Ziapour's fractured planes to hardened structures (grids, grilles, tessellations), arguing this formal shift encapsulates modernism's central contradiction: geometry's capacity to both reductively codify culture as ethnographic specimen and regenerate art as a vessel for ideological content.
+
+---
 layout: full
 ---
 

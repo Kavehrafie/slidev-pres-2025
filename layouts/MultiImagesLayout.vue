@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import data from "../data.yaml";
-
+import { useSlideContext } from "@slidev/client";
+import { onMounted } from "vue";
+import { useImageData } from "../composables/useImageData";
 // Define props for image IDs and an optional custom caption
 const props = defineProps<{
   ids: string[];
@@ -14,9 +15,16 @@ type ImageData = {
   caption: string;
 };
 
+const { $slidev } = useSlideContext();
+const { imageData, loadData } = useImageData();
+
+onMounted(async () => {
+  await loadData($slidev.configs?.dataPath);
+});
+
 // Helper function to get image data or return a fallback
-const getImageData = (id: string): ImageData => {
-  const images = data?.images || {};
+const getImageData = (id: string) => {
+  const images = imageData.value?.images || {};
   return (
     images[id] || {
       src: "",

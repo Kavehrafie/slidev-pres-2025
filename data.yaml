@@ -125,7 +125,7 @@ images:
 
   ziapour_zeynab:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1743141149/ziapour/bf77514d-89ea-4f6c-90c5-4d1c2e13c721_v2obsd.png"
-    caption: Jalil Ziapour, Ms. Zaynab (Ziynab Khātūn), oil on canvas, 130 × 120 cm, TMoCA
+    caption: Jalil Ziapour, Ms. Zaynab (Ziynab Khātūn), c. 1953, oil on canvas, 130 × 120 cm, TMoCA
 
   ziapour_sketch_baluchi:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1749937846/ziapour/ziapour_dress_baluchi_jfl2mv.png"
@@ -138,3 +138,67 @@ images:
   ziapour_quchani:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1749938343/ziapour/66_ef0fa472b9c2f50d55458e03d9c8ec00_1540709802_yh3rcu.jpg"
     caption: "Jalil Ziapour, <i>A Kurdish Woman</i>, likely the late 1950s but first exhibited in 1959, TMoCA"
+
+  tanavoli_poet_locks:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749747663/ziapour/20230416203536_bk3z5m.png"
+    caption: "Parviz Tanavoli, <i>Poet with Locks</i>, 1972, Bronze. 280 × 240 × 105𝑐𝑚 (110 × 94 × 41 “), City Theater, Tehran"
+
+  tanavoli_darius:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749946629/ziapour/2-025_osuyuk.jpg"
+    caption: "Parviz Tanavoli, Darius Chariot, 1957, Scrap metal, 40 × 38 × 11 cm (ca.), Private collection, Italy."
+
+  lock_wearer:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749946698/ziapour/a-lock-bearer_kfczvg.png"
+    caption: Detail of a late 19th century painting depicting a lock wearer; over the entrance to the Ganj Ali Khan bath in Kerman. Tanavoli, Locks from Iran p.27.
+
+  shrine_prayer:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749747759/ziapour/nakhl-lattice_fzimj1.png"
+    caption: "Placing a propitiatory lock on grill of Nakhl, Ethnographical Museum, from <i>A Survey of Persian Handicraft</i> (1977), p. 156"
+
+  tanavoli_heech_1964:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749747739/ziapour/tanavoli-first-heech_d9v1ze.png"
+    caption: " Parviz Tanavoli, <i>Heech</i>, 1964, Plexiglas, wood, copper, plaster and oil, 82 × 80 cm, Manijheh collection."
+
+  old_lock:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749946707/ziapour/lock_s6d0fc.png"
+    caption: "Lock No. 388, steel Chal Shotor with helicalspring mechanism, 19th century. 29𝑐𝑚 × 25.5𝑐𝑚, from Tanavoli’s <i>Locks from Iran</i>, p.136"
+
+  monir_mirror_balls:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749933292/ziapour/Untitled-1973-Mirror-work-on-plastic-balls-Various-dimensions-Various-private-collections-Photo_xilahs.jpg"
+    caption: "Monir Farmanfarmaian, <i>Disco Balls</i>, 1973, mirror-work on plaster, dimensions variable"
+
+  monir_flowers:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750006786/ziapour/monir_fl_65_ks93mp.png"
+    caption: "Monir Shahroudy Farmanfarmaian, <i>Flowers</i>, 1965, Oil on canvas (monotype), 26 × 20 1/2 in, Grey Art Gallery."
+
+  monir_cat_1977:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750006710/ziapour/20231026131135_vr8drr.png"
+    caption: "The cover of the catalog of Farmanfarmaian’s exhibition at Denise René’s gallery in Paris, 1977."
+
+  morris_portland_1977:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750006694/ziapour/20231027134552_mihmzz.png"
+    caption: "Robert Morris, Untitled, 1977, installation, wood, mirrors panels 6 × 8 ft, Portland Center for the Visual Arts"
+
+  samaras_mirror:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750011687/ziapour/Lucas_Samaras_Mirrored_Room_Members_Preview_1966.12.15_002_la5h24.jpg"
+    caption: "Visitors in Lucas Samaras's <i>Mirrored Room</i>, 1966, on December 15, 1966. Image courtesy of the Albright-Knox Art Gallery Digital Assets Collection and Archives, Buffalo, New York."
+
+  monir_negarestan:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750006702/ziapour/20231026163750_bymqxb.png"
+    caption: "Traditional Turkman robes and jewelry from Farmanfarmaian’s ethnographic collection in an exhibition curated by Kamran Diba at the Negarestan Museum, Tehran, 1978"
+
+  monir_foldable:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750022660/ziapour/foldable_ymaygx.png"
+    caption: "Monir Farmanfarmaian, <i>Untitled</i>, Nomadic Tent Design, 1978, cardboard, 36 × 27.5"
+
+  monir_fractal:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750022462/ziapour/Untitled-1983-Pen-and-ink-and-Indian-ink-on-paper-35-x-28-cm-Collection-of-the-artist-Photo_ajscbx.jpg"
+    caption: "Monir Farmanfarmaian, <i>Untitled</i>, 1975, pen and ink on paper"
+
+  felix_happiness:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750181248/ziapour/20220620213820_cfll0b.png"
+    caption: "Félix Labisse, <i>The Happiness of Being Loved (Le bonheur d’être aimé)</i>, oil on canvas, 1943, 73 x 60 cm"
+
+  tanavoli_shiraz:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1749933283/ziapour/tanavoli_pahlavi_univ_x0dbui.jpg"
+    caption: "Parviz Tanavoli, <i>I Want My Beloved</i>, 1969, bronze, the School of Art and Architecture, the Shiraz University, Iran"

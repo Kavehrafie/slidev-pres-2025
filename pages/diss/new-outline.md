@@ -17,3 +17,8 @@ layout: two-cols
 ### 5. Coda {class="py-3 font-bold"}
 
 </v-clicks>
+
+<!--
+It is divided into 4 major chapters and a conclusion. 
+A general introduction to to give background and separate chapters dedicated to each artist Z, T, F respectively.
+-->
