@@ -56,7 +56,8 @@ transition: slide-right
 ::right::
 
 ## Introduction: The Rooster Crows
-### This chapter examines historical conditions that enabled modernist art in Iran, and through this examination, it actively challenges reductive framing of cultural development based on national identity. Instead, it argues for modernism as not merely belated or derivative, but as an active negotiation of the production of art within a global capitalist modernity—a process inseparable from Iran’s own uneven integration into it.
+This chapter examines historical conditions that enabled modernist art in Iran, and through this examination, it actively challenges reductive framing of cultural development based on national identity. Instead, it argues for modernism as not merely belated or derivative, but as an active negotiation of art production within a global capitalist modernity—a process inextricably linked to Iran’s uneven integration into it, and its simultaneous aspirations for a socialist modernity.
+
 
 ---
 layout: two-cols
@@ -81,7 +82,7 @@ transition: slide-right
 ::right::
 
 ## Jalil Ziapour: Constructing the Public
-### Through Ziapour’s development, this chapter examines how Iranian modernism negotiated dual imperatives—the early push for artistic autonomy, followed by the post-1953 coup shift toward ethnography, aligned with Surrealist paradigms.
+### Through Ziapour’s development, this chapter examines how modernism in Iran negotiated dual imperatives—the early push for artistic autonomy, followed by the post-1953 coup shift toward ethnography, aligned with Surrealist paradigms.
 
 
 ---
