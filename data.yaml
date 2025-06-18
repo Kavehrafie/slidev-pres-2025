@@ -202,3 +202,7 @@ images:
   tanavoli_shiraz:
     src: "https://res.cloudinary.com/image-solar/image/upload/v1749933283/ziapour/tanavoli_pahlavi_univ_x0dbui.jpg"
     caption: "Parviz Tanavoli, <i>I Want My Beloved</i>, 1969, bronze, the School of Art and Architecture, the Shiraz University, Iran"
+
+  tanavoli_hands:
+    src: "https://res.cloudinary.com/image-solar/image/upload/v1750259572/ziapour/126_18g197547-tanavoli-parviz_ekxvcw.jpg"
+    caption: "Parviz Tanavoli, *Hands of a Poet*, 1966, painted wood and plaster, 47 3/4 × 32 1/2 × 3 1/2 in."

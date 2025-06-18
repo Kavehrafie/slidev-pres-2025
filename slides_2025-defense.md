@@ -107,13 +107,16 @@ transition: slide-right
 This chapter positions Farmanfarmaian’s mirror-work as a technology of enchantment, directly responding to the anxieties of modernization and the vanishing of pre-modern Iranian culture. Her transatlantic practice, integrating New York’s post-minimalism with nomadic art and Iranian craft traditions, transformed these elements into a strategic aesthetic paradigm that materialized a transnational condition where artisanal 'charm' conveyed cultural fluidity while enmeshed in neocolonial circuits of value.
 
 ---
-layout: center
+layout: two-cols
 transition: slide-right
 ---
 
+<Image id="tanavoli_hands" class="h-[400px]"  showCaption />
+
+::right::
 ## Coda
 
-### The conclusion examines how abstraction evolved from an internal organizing principle—as initially explored in Cubism—to its objectification as sculptural forms and patterns. This progression is evident from late Ziapour's tiles, to Tanavoli's grilles, and Farmanfarmaian's tessellations. This reification signals a move towards a structuralist view of culture. Here, an overemphasis on objectified, singular structure became the hallmark of an anthropological tendency, erasing subjectivity.
+The conclusion examines how abstraction evolved from an internal organizing principle—as initially explored in Cubism—to its objectification as sculptural forms and patterns. This progression is evident from late Ziapour's tiles, to Tanavoli's grilles, and Farmanfarmaian's tessellations. This reification signals a move towards a structuralist view of culture. Here, an overemphasis on objectified, singular structure became the hallmark of an anthropological tendency, erasing subjectivity.
 
 
 ---
