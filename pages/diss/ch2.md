@@ -1,23 +1,4 @@
 ---
-layout: HeaderStatement
-opacity: 0.5
-scale: 0.8
-x: -90
----
-
-<ChapterMove>
-
-## Chapter II
-</ChapterMove>
-
-# Jalil Ziapour: Constructing the Public
-
-::statement::
-
-## Through Ziapour’s development, this chapter examines how Iranian modernism negotiated dual imperatives—the early push for artistic autonomy among his peers, followed by the post-1953 coup shift toward ethnography, frequently mediated through Surrealist aesthetics.
-
-
----
 layout: TwoImagesLayout
 id1: ziapour_public_bath
 id2: ziapour_sepahsalar

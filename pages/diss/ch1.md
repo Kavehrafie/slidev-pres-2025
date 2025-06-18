@@ -1,32 +1,4 @@
 ---
-layout: HeaderStatement
-opacity: 0.5
-scale: 0.8
-x: -90
----
-
-<ChapterMove>
-
-## Chapter I
-</ChapterMove>
-
-# Introduction: The Rooster Crows
-
-::statement::
-
-## This chapter examines the historical conditions enabling modernist art in Iran, rejecting methodological nationalism’s reductive framing of cultural development. Instead, it positions Iranian modernism as neither belated nor derivative, but as an active negotiation of global capitalist modernity—one inseparable from Iran’s own uneven integration into transnational markets and cultural flows.
-
-<!--
-# Introduction
-
-    -   Analyzing Iranian modernism not as "alternative" but within Jameson's "singular modernity" (global capitalism).
-    -   Uneven development creates tensions: traditional practices vs. market forces.
-    -   Critique of "methodological nationalism" and "belatedness" narratives.
-    -   Focus on how artists negotiated position within global capitalism's reach.
-
--->
-
----
 layout: TwoImagesLayout
 id1: school_of_fine_art
 id2: ashtiyani_tehran

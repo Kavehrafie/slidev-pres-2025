@@ -1,22 +1,4 @@
 ---
-layout: HeaderStatement
-opacity: 0.5
-scale: 0.8
-x: -90
----
-
-<ChapterMove>
-
-## Chapter III
-</ChapterMove>
-
-#  Parviz Tanavoli as Poet-Prophet
-
-::statement::
-
-## This chapter examines the deepening anthropologization of Iranian art through Parviz Tanavoli's practice, tracing his artistic transition as he reconceptualized southern Tehran's junkyards and artisanal workshops as sites of collective unconsciousness. This shift coincided with changing Pahlavi patronage - from Minister Pahlbod's academic conservatism to Empress Farah's avant-garde leanings and growing American influence through collectors like Abby Grey, with Tanavoli occupying a pivotal position through his connections to both spheres.
-
----
 layout: two-cols
 ---
 
