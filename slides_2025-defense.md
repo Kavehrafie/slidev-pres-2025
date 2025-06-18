@@ -113,7 +113,7 @@ transition: slide-right
 
 ## Coda
 
-### The conclusion examines how geometric abstraction evolved from Ziapour's fractured planes to hardened structures (grids, grilles, tessellations), arguing this formal shift encapsulates modernism's central contradiction: geometry's capacity to both reductively codify culture as ethnographic specimen and regenerate art as a vessel for ideological content.
+### The conclusion examines how abstraction evolved from an internal organizing principle—as initially explored in Cubism—to its objectification as sculptural forms and patterns. This progression is evident from late Ziapour's tiles, to Tanavoli's grilles, and Farmanfarmaian's tessellations. This reification signals a move towards a structuralist view of culture. Here, an overemphasis on objectified, singular structure became the hallmark of an anthropological tendency, erasing subjectivity.
 
 
 ---
