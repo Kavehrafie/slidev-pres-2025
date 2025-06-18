@@ -105,7 +105,7 @@ transition: slide-right
 
 ::right::
 ## Monir Farmanfarmaian as Occult Technician
-This chapter positions Farmanfarmaian’s mirror-work as a technology of enchantment, directly responding to the anxieties of modernization and the vanishing of pre-modern Iranian culture. Her transatlantic practice, integrating New York’s post-minimalism with nomadic art and Iranian craft traditions, transformed these elements into a strategic aesthetic paradigm that materialized a transnational condition where artisanal 'charm' conveyed cultural fluidity while enmeshed in neocolonial circuits of value.
+This chapter positions Farmanfarmaian’s mirror-work as a technology of enchantment, directly responding to the anxieties of modernization and the vanishing of pre-modern communities in iran. Her transatlantic practice, integrating New York’s post-minimalism with nomadic art and Iranian craft traditions, transformed nomadic and Islamic art into objects where artisanal 'charm' conveyed cultural fluidity while enmeshed in neocolonial circuits of value.
 
 ---
 layout: two-cols
